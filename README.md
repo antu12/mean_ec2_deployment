@@ -41,3 +41,11 @@
   }
   ```
 ### Install and configure Jenkins
+* ```sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo```
+* ```sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key```
+* ```sudo yum install jenkins -y```
+* You need java version 1.8.0
+  * ```sudo yum install java-1.8.0-openjdk```
+  * ```sudo yum remove java-1.7.0-openjdk.x86_64```
+* ```sudo service jenkins start```
+* Add Custom TCP with port 8080 to your ec2 instance inbound security group
