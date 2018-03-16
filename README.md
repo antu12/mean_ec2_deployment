@@ -49,3 +49,6 @@
   * ```sudo yum remove java-1.7.0-openjdk.x86_64```
 * ```sudo service jenkins start```
 * Add Custom TCP with port 8080 to your ec2 instance inbound security group
+_________________
+#### Additional Commands
+* ```pm2 start $(which ng) -- serve --disable-host-check```
