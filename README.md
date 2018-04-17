@@ -3,7 +3,7 @@
 ### After Setting Up an AMI instance
 * ```sudo yum install gcc-c++ openssl-devel make```
 * ```wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash```
-* ```nvm install [version]```
+* ```nvm install [nodeJS version]```
 ### Install Git
 * ```sudo yum install git```
 ### Install Mongo
